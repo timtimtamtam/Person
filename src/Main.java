@@ -1,6 +1,4 @@
-import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -13,7 +11,6 @@ public class Main {
         Person person = new Person();
         Scanner sc = new Scanner(System.in);
         final int INVALID_VALUE_AGE = -1;
-        int yearOfBirth;
 
         System.out.println("Для добавления пользователя введите в правильном порядке: имя, фамилию, отчество." +
                 " Через пробел");
