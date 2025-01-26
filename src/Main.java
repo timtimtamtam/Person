@@ -63,7 +63,7 @@ public class Main {
             person.setMiddleName(middleName);
             if (ageExist) {
                 person.setAge(age);
-                System.out.println(person.getYearOfBirth(age));
+                System.out.println("Год рождения: " + person.getYearOfBirth(age));
             }
             presonList.add(person);
 

@@ -35,8 +35,7 @@ public class Person {
         if ((age > 0) && (age < 110)) {
             LocalDate now = LocalDate.now();
             int year = now.minusYears(age).getYear();
-            String yearOfBirth = String.valueOf(year);
-            return "Год рождения: " + yearOfBirth;
+            return String.valueOf(year);
         } else {
             return "Ошибка получения года рождения";
         }
